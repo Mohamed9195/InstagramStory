@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z5a-rC-McO">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +13,7 @@
         <!--Story View Controller-->
         <scene sceneID="6W9-rQ-lZ1">
             <objects>
-                <viewController storyboardIdentifier="StoryViewController" id="z5a-rC-McO" customClass="StoryViewController" customModule="Hebat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoryViewController" id="z5a-rC-McO" customClass="StoryViewController" customModule="InstagramStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CrT-0U-v3a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -624,7 +625,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ColorImageCollectionViewCell" id="5O4-Fp-aP0" customClass="ColorImageCollectionViewCell" customModule="Hebat" customModuleProvider="target">
+                                    <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ColorImageCollectionViewCell" id="5O4-Fp-aP0" customClass="ColorImageCollectionViewCell" customModule="InstagramStory" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BLI-lp-aBm">
@@ -739,7 +740,7 @@
         <!--Sticker Picker View Controller-->
         <scene sceneID="puW-1k-TI2">
             <objects>
-                <viewController storyboardIdentifier="StickerPicker" id="Nc8-KV-iJb" customClass="StickerPickerViewController" customModule="Hebat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StickerPicker" id="Nc8-KV-iJb" customClass="StickerPickerViewController" customModule="InstagramStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9x0-BL-7I2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -755,7 +756,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StickerCell" id="PZT-jM-hX2" customClass="StickerCollectionViewCell" customModule="Hebat" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StickerCell" id="PZT-jM-hX2" customClass="StickerCollectionViewCell" customModule="InstagramStory" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -830,7 +831,7 @@
         <!--Text Entry View Controller-->
         <scene sceneID="uUb-t8-T6E">
             <objects>
-                <viewController storyboardIdentifier="TextEntry" id="UF1-zD-ODc" customClass="TextEntryViewController" customModule="Hebat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TextEntry" id="UF1-zD-ODc" customClass="TextEntryViewController" customModule="InstagramStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pwf-Wi-zMN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
