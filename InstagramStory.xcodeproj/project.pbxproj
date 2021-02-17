@@ -10,6 +10,15 @@
 		7D29AB8825DCFA64009177AF /* InstagramStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D29AB7E25DCFA63009177AF /* InstagramStory.framework */; };
 		7D29AB8D25DCFA64009177AF /* InstagramStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29AB8C25DCFA64009177AF /* InstagramStoryTests.swift */; };
 		7D29AB8F25DCFA64009177AF /* InstagramStory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D29AB8125DCFA63009177AF /* InstagramStory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D29AB9B25DCFAB5009177AF /* InstagramStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D29AB9A25DCFAB5009177AF /* InstagramStoryBoard.storyboard */; };
+		7D29ABB125DCFCB5009177AF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D29ABB025DCFCB5009177AF /* Media.xcassets */; };
+		7D29ABBB25DCFD69009177AF /* ScreenShoutImageStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB425DCFD69009177AF /* ScreenShoutImageStoryViewController.swift */; };
+		7D29ABBC25DCFD69009177AF /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB525DCFD69009177AF /* StickerCollectionViewCell.swift */; };
+		7D29ABBD25DCFD69009177AF /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB625DCFD69009177AF /* TextEntryViewController.swift */; };
+		7D29ABBE25DCFD69009177AF /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB725DCFD69009177AF /* Sticker.swift */; };
+		7D29ABBF25DCFD69009177AF /* StickerPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */; };
+		7D29ABC025DCFD69009177AF /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB925DCFD69009177AF /* StoryViewController.swift */; };
+		7D29ABC125DCFD69009177AF /* ColorImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABBA25DCFD69009177AF /* ColorImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		7D29AB8725DCFA64009177AF /* InstagramStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D29AB8C25DCFA64009177AF /* InstagramStoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramStoryTests.swift; sourceTree = "<group>"; };
 		7D29AB8E25DCFA64009177AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D29AB9A25DCFAB5009177AF /* InstagramStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstagramStoryBoard.storyboard; sourceTree = "<group>"; };
+		7D29ABB025DCFCB5009177AF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7D29ABB425DCFD69009177AF /* ScreenShoutImageStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShoutImageStoryViewController.swift; sourceTree = "<group>"; };
+		7D29ABB525DCFD69009177AF /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D29ABB625DCFD69009177AF /* TextEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
+		7D29ABB725DCFD69009177AF /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPickerViewController.swift; sourceTree = "<group>"; };
+		7D29ABB925DCFD69009177AF /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		7D29ABBA25DCFD69009177AF /* ColorImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,15 @@
 			children = (
 				7D29AB8125DCFA63009177AF /* InstagramStory.h */,
 				7D29AB8225DCFA63009177AF /* Info.plist */,
+				7D29AB9A25DCFAB5009177AF /* InstagramStoryBoard.storyboard */,
+				7D29ABBA25DCFD69009177AF /* ColorImageCollectionViewCell.swift */,
+				7D29ABB425DCFD69009177AF /* ScreenShoutImageStoryViewController.swift */,
+				7D29ABB725DCFD69009177AF /* Sticker.swift */,
+				7D29ABB525DCFD69009177AF /* StickerCollectionViewCell.swift */,
+				7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */,
+				7D29ABB925DCFD69009177AF /* StoryViewController.swift */,
+				7D29ABB625DCFD69009177AF /* TextEntryViewController.swift */,
+				7D29ABB025DCFCB5009177AF /* Media.xcassets */,
 			);
 			path = InstagramStory;
 			sourceTree = "<group>";
@@ -147,6 +174,7 @@
 				TargetAttributes = {
 					7D29AB7D25DCFA63009177AF = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					7D29AB8625DCFA64009177AF = {
 						CreatedOnToolsVersion = 12.2;
@@ -177,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D29ABB125DCFCB5009177AF /* Media.xcassets in Resources */,
+				7D29AB9B25DCFAB5009177AF /* InstagramStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D29ABC025DCFD69009177AF /* StoryViewController.swift in Sources */,
+				7D29ABBC25DCFD69009177AF /* StickerCollectionViewCell.swift in Sources */,
+				7D29ABBE25DCFD69009177AF /* Sticker.swift in Sources */,
+				7D29ABBB25DCFD69009177AF /* ScreenShoutImageStoryViewController.swift in Sources */,
+				7D29ABC125DCFD69009177AF /* ColorImageCollectionViewCell.swift in Sources */,
+				7D29ABBF25DCFD69009177AF /* StickerPickerViewController.swift in Sources */,
+				7D29ABBD25DCFD69009177AF /* TextEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +378,10 @@
 		7D29AB9325DCFA64009177AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -357,6 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MH.InstagramStory;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,8 +405,10 @@
 		7D29AB9425DCFA64009177AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -389,6 +431,7 @@
 		7D29AB9625DCFA64009177AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				INFOPLIST_FILE = InstagramStoryTests/Info.plist;
@@ -407,6 +450,7 @@
 		7D29AB9725DCFA64009177AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BN2D9VKA46;
 				INFOPLIST_FILE = InstagramStoryTests/Info.plist;
