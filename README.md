@@ -10,6 +10,8 @@
 # example
 ```swift
 
+// you can Long Press on any sticker to remove it
+
 import InstagramStory
 
  let storyboardBundle = Bundle(for: StoryViewController.self)
