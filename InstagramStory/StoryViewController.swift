@@ -46,6 +46,26 @@ public class StoryViewController: UIViewController, UIGestureRecognizerDelegate,
         imageBackGround.isUserInteractionEnabled = true
         let pinchMethod = UIPinchGestureRecognizer(target: self, action: #selector(pinchImage(sender:)))
         imageBackGround.addGestureRecognizer(pinchMethod)
+        
+        let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(longImage(sender:)))
+        longGesture.minimumPressDuration = 1
+        longGesture.numberOfTouchesRequired = 1
+
+        imageBackGround.addGestureRecognizer(longGesture)
+    }
+
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("you can Long Press on any sticker to remove it")
+    }
+
+    @objc func longImage(sender: UILongPressGestureRecognizer) {
+        self.activeSticker = self.findSticker(point: sender.location(in: self.viewScreenShoutImage))
+        if self.activeSticker != nil {
+            self.activeSticker?.isHidden = true
+        } else {
+            waitingToExposeStickerPicker = true
+        }
     }
 
     @objc func pinchImage(sender: UIPinchGestureRecognizer) {
