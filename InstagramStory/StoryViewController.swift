@@ -145,8 +145,26 @@ public class StoryViewController: UIViewController, UIGestureRecognizerDelegate,
         if newImage != nil {
             delegateScreenShoutImage?.screenShoutImage(image: newImage!)
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "CREATE-IMAGE"), object: nil, userInfo: ["Image" : newImage!])
+
+            UIImageWriteToSavedPhotosAlbum(newImage!, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
             self.dismiss(animated: true, completion: nil)
         }
+    }
+
+    //MARK: - Add image to Library
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            showAlertWith(title: "Save error", message: error.localizedDescription)
+        } else {
+            showAlertWith(title: "Saved!", message: "Your image has been saved to your photos.")
+        }
+    }
+
+    func showAlertWith(title: String, message: String){
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
     }
 
     // For placing stickers
