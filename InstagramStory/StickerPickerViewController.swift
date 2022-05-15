@@ -17,7 +17,7 @@ class StickerPickerViewController: UIViewController, UICollectionViewDelegate, U
     @IBOutlet weak var collectionView: UICollectionView!
 
     var emoji: [String]!
-    var delegate: StickerPickerDelegate?
+    weak var delegate: StickerPickerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()

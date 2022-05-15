@@ -19,6 +19,8 @@
 		7D29ABBF25DCFD69009177AF /* StickerPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */; };
 		7D29ABC025DCFD69009177AF /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABB925DCFD69009177AF /* StoryViewController.swift */; };
 		7D29ABC125DCFD69009177AF /* ColorImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29ABBA25DCFD69009177AF /* ColorImageCollectionViewCell.swift */; };
+		B5179CAB283109AE00669E4B /* StoryViewExtensionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5179CAA283109AE00669E4B /* StoryViewExtensionFilter.swift */; };
+		B5179CAD283109B500669E4B /* StoryViewExtensionPencilAndIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5179CAC283109B500669E4B /* StoryViewExtensionPencilAndIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPickerViewController.swift; sourceTree = "<group>"; };
 		7D29ABB925DCFD69009177AF /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		7D29ABBA25DCFD69009177AF /* ColorImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5179CAA283109AE00669E4B /* StoryViewExtensionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewExtensionFilter.swift; sourceTree = "<group>"; };
+		B5179CAC283109B500669E4B /* StoryViewExtensionPencilAndIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewExtensionPencilAndIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				7D29ABB525DCFD69009177AF /* StickerCollectionViewCell.swift */,
 				7D29ABB825DCFD69009177AF /* StickerPickerViewController.swift */,
 				7D29ABB925DCFD69009177AF /* StoryViewController.swift */,
+				B5179CAA283109AE00669E4B /* StoryViewExtensionFilter.swift */,
+				B5179CAC283109B500669E4B /* StoryViewExtensionPencilAndIcon.swift */,
 				7D29ABB625DCFD69009177AF /* TextEntryViewController.swift */,
 				7D29ABB025DCFCB5009177AF /* Media.xcassets */,
 			);
@@ -224,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5179CAD283109B500669E4B /* StoryViewExtensionPencilAndIcon.swift in Sources */,
+				B5179CAB283109AE00669E4B /* StoryViewExtensionFilter.swift in Sources */,
 				7D29ABC025DCFD69009177AF /* StoryViewController.swift in Sources */,
 				7D29ABBC25DCFD69009177AF /* StickerCollectionViewCell.swift in Sources */,
 				7D29ABBE25DCFD69009177AF /* Sticker.swift in Sources */,

@@ -13,9 +13,9 @@ let defaultLabelFont = UIFont(name: "Helvetica", size: defaultFontSize)
 
 class Sticker: UIView {
 
-    var appliedTranslation  = CGPoint(x: 0.0, y: 0.0)
-    var appliedScale        = CGFloat(1.0)
-    var appliedRotation     = CGFloat(0.0)
+    var appliedTranslation = CGPoint(x: 0.0, y: 0.0)
+    var appliedScale = CGFloat(1.0)
+    var appliedRotation = CGFloat(0.0)
     
     var label: UILabel?
     var text: String? {
